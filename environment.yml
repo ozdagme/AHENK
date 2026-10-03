@@ -1,0 +1,25 @@
+name: ahenk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pytorch
+  - pyarrow
+  - matplotlib
+  - seaborn
+  - pillow
+  - pypdf
+  - threadpoolctl
+  - yfinance
+  - pyyaml
+  - pydantic
+  - psutil
+  - pytest
+  - jupyterlab
+  - ffmpeg
+  - praat-parselmouth=0.4.7

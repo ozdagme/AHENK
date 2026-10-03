@@ -1,0 +1,246 @@
+{
+  "created_at_utc": "2026-10-03T08:15:47.946550+00:00",
+  "project": "AHENK",
+  "version": "0.1.0",
+  "release_status": "PREPUBLICATION_CODE_ONLY",
+  "research_data_included": false,
+  "manuscript_or_publication_assets_included": false,
+  "results_or_model_outputs_included": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 357,
+      "sha256": "6ede455431c46c7791ebbc54b23c73b11b154eb271d3512aec335c0117ce23c1"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 253,
+      "sha256": "a20209070f3c3404ee9548ff7a339d5755a2eda305baf8e1ec9a8a8c9d185c80"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1075,
+      "sha256": "64b01abd05207f00179e0391bece781c37d61be4bb3eb22f0f4f6c7ad7442421"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 512,
+      "sha256": "9f101d0e0659d0f2929c703b2b3801615b66f19537959ab2443288ea4105544b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1527,
+      "sha256": "ab186b7eaba55a9d77788f3039de54d9a6964b4aad61ed3dbc2b0e9c07c75bc8"
+    },
+    {
+      "path": "README_TR.md",
+      "bytes": 1521,
+      "sha256": "bbda7d59d4a0a340ed7bf51200d71e14371eed9aadad540a5c3f394a6e66b662"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 327,
+      "sha256": "abc4e41bd0853d22f7ef775415471ac9c22fb2d6059f0d12876ae763c6fa7f19"
+    },
+    {
+      "path": "scripts/acquire_and_audit_maec.py",
+      "bytes": 10049,
+      "sha256": "9edc39039efa09d87aafeee3891369ed5468ac39a73a83e0bf834aaa39b2b715"
+    },
+    {
+      "path": "scripts/analyze_ahenk_expert_significance.py",
+      "bytes": 5544,
+      "sha256": "ea0e3b398c6ef0250e3ee5f02e73fc92b6c6bf7ae0a03471ab32b198eec6ac9e"
+    },
+    {
+      "path": "scripts/analyze_baseline_significance.py",
+      "bytes": 5546,
+      "sha256": "1f4bf30b5fcf90587fc675174fe7272def2cd57be16bdaba418cb21897d4c40c"
+    },
+    {
+      "path": "scripts/analyze_identity_significance.py",
+      "bytes": 4435,
+      "sha256": "1ffe293fd3477e508920559c39aa1b145a67cf51f6faf5583ab09ddcada3d284"
+    },
+    {
+      "path": "scripts/analyze_tfidf_significance.py",
+      "bytes": 4758,
+      "sha256": "99e50ee3a40aa1e63c69068c5f98ce57e60c2af51fc8406b09ad18afb030b64f"
+    },
+    {
+      "path": "scripts/audit_earnings25_segmentation_compatibility.py",
+      "bytes": 10352,
+      "sha256": "ba8dc91bb17432bf42676e810e61f08dade36208610c61397bd436c62f99d039"
+    },
+    {
+      "path": "scripts/build_tabular_features.py",
+      "bytes": 8977,
+      "sha256": "94312c372faff1103d91b317b2d281c94f9affee2ae62c65567950199ee26880"
+    },
+    {
+      "path": "scripts/collect_environment.sh",
+      "bytes": 2419,
+      "sha256": "cf7ebe5950647526611716ca5661d1d02c9ddf5c400b3e1021a13db39975fbc1"
+    },
+    {
+      "path": "scripts/download_market_pilot.py",
+      "bytes": 13846,
+      "sha256": "dd905da934a3cad6c15828437b1e2e18621785222d1067c570302fc2f22001d6"
+    },
+    {
+      "path": "scripts/extract_earnings25_frozen_features.py",
+      "bytes": 21166,
+      "sha256": "3d115d1b351cfdaf909eae796085378b0d8a5fbedccf51ebf663dba79b28479c"
+    },
+    {
+      "path": "scripts/finalize_earnings25_confirmation_features.py",
+      "bytes": 17249,
+      "sha256": "c630b6cc68132a34e746cbdbf3390a3db8d66ad34745f5a68d9d246fce241495"
+    },
+    {
+      "path": "scripts/finalize_research_subset.py",
+      "bytes": 6922,
+      "sha256": "fdf21d2adfea3e5d5e03d047f16676f8763756bb1113c69e1cbdcf5d5f36cd83"
+    },
+    {
+      "path": "scripts/finalize_tiingo_confirmation.py",
+      "bytes": 9833,
+      "sha256": "748115649a888679e28eb883c32d82c195d935f455f9a0dc3ad1e92c131998de"
+    },
+    {
+      "path": "scripts/freeze_earnings25_acoustic_extraction.py",
+      "bytes": 7183,
+      "sha256": "910d1c3446601961f450e4feb83e142b1f1cb9eb4f37e65784e3f6e4dc09b83a"
+    },
+    {
+      "path": "scripts/freeze_earnings25_primary_features.py",
+      "bytes": 12814,
+      "sha256": "d59481ba83c1be899c605bd7f1bb4eca0744c88eb0afdb387961a08a69f6d84d"
+    },
+    {
+      "path": "scripts/gpu_acceptance_test.py",
+      "bytes": 3966,
+      "sha256": "147a474a9fa430e072df57ee102f0c5d6202947fbe6689d87faa2a949d24d53d"
+    },
+    {
+      "path": "scripts/inspect_maec_financial_files.py",
+      "bytes": 5571,
+      "sha256": "a89ca3adb64ad581f968cc01aa6ccf56e4c7f8988fedb7f94221a8aab7faa7c1"
+    },
+    {
+      "path": "scripts/prepare_earnings25_forward_confirmation.py",
+      "bytes": 21796,
+      "sha256": "bf0c2a742549fa81db2a834ec898bbc53e530f44235ff384e6472c800a47886f"
+    },
+    {
+      "path": "scripts/prepare_tiingo_locked_confirmation.py",
+      "bytes": 16567,
+      "sha256": "7b713ef0d6289698552a17bd83d6cf6786d3ee7736a8c5365d9b170c9e8b25de"
+    },
+    {
+      "path": "scripts/probe_earnings25_feature_extraction.py",
+      "bytes": 8284,
+      "sha256": "5e80c7d86ed5734f656e11c9c232cf7dc23db0dd81db5073b1dd311b70bb8c19"
+    },
+    {
+      "path": "scripts/profile_maec_features.py",
+      "bytes": 6875,
+      "sha256": "ec73ffafbcdf889e9008c72cb9bdfc0dc8576caee23d0c678869e271886f52f8"
+    },
+    {
+      "path": "scripts/retrieve_earnings25_frozen_market.py",
+      "bytes": 17853,
+      "sha256": "0969887c816edd94bb1e52f64651ac80a78f9914873c46cb8da316356aa85875"
+    },
+    {
+      "path": "scripts/run_ahenk_expert_pilot.py",
+      "bytes": 17776,
+      "sha256": "5804c4997d673383fe42511182c91bd8540a679eae40a1c5610781b57d2c0778"
+    },
+    {
+      "path": "scripts/run_ahenk_pilot.py",
+      "bytes": 19417,
+      "sha256": "057f63a08253500112c30a209676e9dd460a531840439cdab3eaf3b69a32c49d"
+    },
+    {
+      "path": "scripts/run_ahenk_true_missing_development.py",
+      "bytes": 17248,
+      "sha256": "2f44b10946dcccb50e69245d235e3d0ec90cacdb95144cd59c27ad52f5950279"
+    },
+    {
+      "path": "scripts/run_ahenk_v3_development.py",
+      "bytes": 25534,
+      "sha256": "e6ff8a96cf0576351313874a8577811549f9c319452aeb09c3a718f3624972db"
+    },
+    {
+      "path": "scripts/run_ahenk_v3_external_confirmation.py",
+      "bytes": 13411,
+      "sha256": "bd622e2273fa0b7ea96a0f62dade6786037b0e4593d06071fb38c0828e055835"
+    },
+    {
+      "path": "scripts/run_confirmatory_validation.py",
+      "bytes": 20133,
+      "sha256": "8d50b499465a971781f77e87f23a8b4bf5adbee4bb6f9678a736cdc1e322a893"
+    },
+    {
+      "path": "scripts/run_cpu_baselines.py",
+      "bytes": 10744,
+      "sha256": "f3710fd1baef2b6e9627f530fb98237a12afcdcfb3cccb0b162c543f3ef28cbc"
+    },
+    {
+      "path": "scripts/run_earnings25_acoustic_pilot.py",
+      "bytes": 22804,
+      "sha256": "be4fa7a289db359299e1bc8fafa42195d662f4678ceb345dba557b0450684cfd"
+    },
+    {
+      "path": "scripts/run_earnings25_forward_locked_confirmation.py",
+      "bytes": 38933,
+      "sha256": "c22a1301050305d08c4d33bc5859b964815fa923d178faa8b29dfb842233feb5"
+    },
+    {
+      "path": "scripts/run_extended_validation.py",
+      "bytes": 14965,
+      "sha256": "873650b0a2d901718ad992f8837d59065831313edc1c7044f49ad0d13d8416c7"
+    },
+    {
+      "path": "scripts/run_external_identity_sensitivity.py",
+      "bytes": 16941,
+      "sha256": "9203be220d8f114a6f14cbaddde1aa780305f5eee8c8583c0b987d798380f762"
+    },
+    {
+      "path": "scripts/run_identity_controls.py",
+      "bytes": 4808,
+      "sha256": "264c1ae9879ff904d418919582b0def057becebe29fa01769ca91cf361da05d2"
+    },
+    {
+      "path": "scripts/run_preparation_pipeline.py",
+      "bytes": 9067,
+      "sha256": "bdd76370c06fa7b9f06e2fffbf9178be6afe1c950bfd221b79b40098d1e40fa4"
+    },
+    {
+      "path": "scripts/run_tfidf_baselines.py",
+      "bytes": 8137,
+      "sha256": "6e39a285182b0a348b85bee0150b0cb022d1401d4015ee3b89bb99fce0ace8d1"
+    },
+    {
+      "path": "scripts/run_tiingo_fallback.py",
+      "bytes": 12699,
+      "sha256": "28b627f07f0da58c11bdaf6ee589d91f946c33629dd88570fd81102c97373ee9"
+    },
+    {
+      "path": "scripts/test_true_missing_mask.py",
+      "bytes": 2039,
+      "sha256": "fe3a7a34c6b6ee7cb8845cb66c2e5c3fd5b7737f6ee7500c4557426899502dad"
+    },
+    {
+      "path": "scripts/verify_pytorch.py",
+      "bytes": 1147,
+      "sha256": "bce137b2081cf566955c52dc5f53015616f61e1c632e6808f3398e2d053d42b5"
+    }
+  ]
+}
